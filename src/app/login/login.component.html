@@ -1,1 +1,39 @@
-<h1>Login Page</h1>
+<div class="login-container">
+    <div class="col-left">
+
+        <h1 style="font-weight: 500;">Sig in Todo App</h1>
+        <form class="login-form">
+            <div>
+                <mat-form-field class="input-field" appearance="outline">
+                    <mat-label>Username or Email</mat-label>
+                    <input matInput type="text">
+                </mat-form-field>
+            </div>
+            <div style="display: flex; justify-content: end;">
+                <a class="text-route-link" style="padding: 0; margin: 0;">Forgetpassword?</a>
+            </div>
+            <div>
+                <mat-form-field class="input-field" appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input matInput type="text">
+                </mat-form-field>
+            </div>
+        </form>
+
+        <div>
+            <button class="button" mat-flat-button color="primary">Primary</button>
+        </div>
+
+        <div style="margin-top: 5%; margin-bottom: 5%;">
+            <mat-divider></mat-divider>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+            <p>Don't have an account?</p>
+            <a class="text-route-link" style="margin-left: 4px;">Sign up</a>
+        </div>
+    </div>
+    <div class="col-right">
+        <img class="login-image" src="http://localhost:4200/assets/images/login-pic.png" alt="login-pic">
+    </div>
+</div>
